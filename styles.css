@@ -526,3 +526,94 @@ body {
   }
 
 }
+/* ===== EXTRA SMALL DEVICES (Samsung A12 etc.) ===== */
+@media (max-width: 400px) {
+
+  body {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  section {
+    padding: 30px 12px;
+  }
+
+}
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 400px) {
+
+  .about-img {
+    width: 120px;
+  }
+
+  .about-container {
+    padding: 0 10px;
+  }
+
+}
+@media (max-width: 400px) {
+
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timeline-item {
+    padding-left: 25px;
+  }
+
+  .timeline-content {
+    padding: 15px;
+    font-size: 13px;
+  }
+
+}
+@media (max-width: 400px) {
+
+  .project-card {
+    padding: 12px;
+  }
+
+  .project-card h3 {
+    font-size: 16px;
+  }
+
+}
+@media (max-width: 400px) {
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+}
+@media (max-width: 400px) {
+
+  .slide-left {
+    transform: translateX(-40px);
+  }
+
+  .slide-right {
+    transform: translateX(40px);
+  }
+
+}
