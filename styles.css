@@ -83,11 +83,13 @@ body {
 
 /* SKILLS */
 /* SKILLS SECTION */
+.skills h2 {
+  text-align: center;
+}
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns for laptop */
+  grid-template-columns: repeat(3, 1fr); /* 3 side-by-side */
   gap: 25px;
-  margin-top: 30px;
 }
 .skill-card {
   background: #1e293b;
@@ -706,4 +708,15 @@ p {
     padding: 0 15px;
   }
 
+}
+@media (max-width: 992px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
 }
