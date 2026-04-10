@@ -719,3 +719,21 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* Reduce space below Projects */
+.projects {
+  padding-bottom: 20px;
+}
+
+/* Reduce space above Get in Touch */
+.contact {
+  padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .projects {
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    padding-top: 20px;
+  }
+}
