@@ -667,36 +667,7 @@ body {
   }
 
 }
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-}
 
-/* LEFT TEXT */
-.hero-text {
-  flex: 1;
-}
-
-/* RIGHT VISUAL */
-.hero-visual {
-  flex: 1;
-  position: relative;
-  height: 250px;
-}
-@media (max-width: 768px) {
-
-  .hero-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-visual {
-    margin-top: 20px;
-  }
-
-}
 /* GLOBAL CONTAINER */
 .container {
   width: 100%;
